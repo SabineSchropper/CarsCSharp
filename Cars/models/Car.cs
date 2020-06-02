@@ -15,7 +15,7 @@ namespace Cars.models
 
         public override string ToString()
         {
-            string output = "\nType: " + "Normales Auto\n" + "Hersteller: " + Manufacturer +
+            string output = "\nType:  " + "Normales Auto\n" + "Hersteller: " + Manufacturer +
                 "\nName: " + Name + "\nBaujahr: " + YearOfConstruction + "\nFarbe: " + Color;
             return output;
         }
