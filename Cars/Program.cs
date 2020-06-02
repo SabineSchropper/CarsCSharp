@@ -43,12 +43,12 @@ namespace Cars
                 if (isSportsCar)
                 {
                     car = new SportsCar();
-                    car.Type = models.Type.Sports_Car;
+                    car.Type = models.Type.SPORTS_CAR;
                 }
                 else
                 {
                     car = new Car();
-                    car.Type = models.Type.Car;
+                    car.Type = models.Type.CAR;
                 }
                 Console.WriteLine("Hersteller?");
                 car.Manufacturer = Console.ReadLine();

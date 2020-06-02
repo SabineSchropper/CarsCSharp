@@ -6,7 +6,7 @@ namespace Cars.models
 {
     enum Type
     {
-        Car,
-        Sports_Car
+        CAR,
+        SPORTS_CAR
     }
 }
